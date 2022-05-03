@@ -59,5 +59,5 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     zip_safe=False,
-    install_requires=['pandas','urllib','xml']
+    install_requires=['pandas']
 )
