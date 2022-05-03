@@ -1,0 +1,7 @@
+pandas
+click
+ruamel.yaml>=0.16.0
+pyyaml
+colorlog
+pytest
+pytablewriter
