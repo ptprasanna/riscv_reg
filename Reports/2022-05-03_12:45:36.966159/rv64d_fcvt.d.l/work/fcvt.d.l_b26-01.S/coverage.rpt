@@ -1,0 +1,142 @@
+---
+fcvt.d.l_b26:
+  config:
+  - check ISA:=regex(.*I.*F.*)
+  opcode:
+    fcvt.d.l: 65
+    coverage: 1/1
+  rd:
+    f0: 1
+    f1: 1
+    f10: 1
+    f11: 1
+    f12: 1
+    f13: 1
+    f14: 1
+    f15: 1
+    f16: 1
+    f17: 1
+    f18: 1
+    f19: 1
+    f2: 1
+    f20: 1
+    f21: 1
+    f22: 1
+    f23: 1
+    f24: 1
+    f25: 1
+    f26: 1
+    f27: 1
+    f28: 1
+    f29: 1
+    f3: 1
+    f30: 1
+    f31: 34
+    f4: 1
+    f5: 1
+    f6: 1
+    f7: 1
+    f8: 1
+    f9: 1
+    coverage: 32/32
+  rs1:
+    x0: 1
+    x1: 1
+    x10: 1
+    x11: 1
+    x12: 1
+    x13: 1
+    x14: 1
+    x15: 1
+    x16: 1
+    x17: 1
+    x18: 1
+    x19: 1
+    x2: 1
+    x20: 1
+    x21: 1
+    x22: 1
+    x23: 1
+    x24: 1
+    x25: 1
+    x26: 1
+    x27: 1
+    x28: 1
+    x29: 1
+    x3: 1
+    x30: 1
+    x31: 34
+    x4: 1
+    x5: 1
+    x6: 1
+    x7: 1
+    x8: 1
+    x9: 1
+    coverage: 32/32
+  val_comb:
+    'rs1_val == 0 and rm_val == 0  #nosat': 2  #  Number in [0]
+    'rs1_val == 9184267462870993263 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [4611686018427387904, 9223372036854775807]
+    'rs1_val == 3035559518675506972 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [2305843009213693952, 4611686018427387903]
+    'rs1_val == 2086309477244717835 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [1152921504606846976, 2305843009213693951]
+    'rs1_val == 878257878219487117 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [576460752303423488, 1152921504606846975]
+    'rs1_val == 428092830716901554 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [288230376151711744, 576460752303423487]
+    'rs1_val == 156703057381110404 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [144115188075855872, 288230376151711743]
+    'rs1_val == 104291213792325832 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [72057594037927936, 144115188075855871]
+    'rs1_val == 59668294213987868 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [36028797018963968, 72057594037927935]
+    'rs1_val == 24358691315317906 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [18014398509481984, 36028797018963967]
+    'rs1_val == 12147253371253868 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [9007199254740992, 18014398509481983]
+    'rs1_val == 7228908657904184 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [4503599627370496, 9007199254740991]
+    'rs1_val == 3454382579804098 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [2251799813685248, 4503599627370495]
+    'rs1_val == 1449063015970349 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [1125899906842624, 2251799813685247]
+    'rs1_val == 1064659746632576 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [562949953421312, 1125899906842623]
+    'rs1_val == 477767642386861 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [281474976710656, 562949953421311]
+    'rs1_val == 194479587133174 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [140737488355328, 281474976710655]
+    'rs1_val == 132508745935081 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [70368744177664, 140737488355327]
+    'rs1_val == 45718214482007 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [35184372088832, 70368744177663]
+    'rs1_val == 31117680965175 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [17592186044416, 35184372088831]
+    'rs1_val == 10221399934292 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [8796093022208, 17592186044415]
+    'rs1_val == 5032232323694 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [4398046511104, 8796093022207]
+    'rs1_val == 3524006078498 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [2199023255552, 4398046511103]
+    'rs1_val == 1168389695644 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [1099511627776, 2199023255551]
+    'rs1_val == 813522083007 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [549755813888, 1099511627775]
+    'rs1_val == 453482173015 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [274877906944, 549755813887]
+    'rs1_val == 268160711063 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [137438953472, 274877906943]
+    'rs1_val == 131206879410 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [68719476736, 137438953471]
+    'rs1_val == 51102363774 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [34359738368, 68719476735]
+    'rs1_val == 22050244097 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [17179869184, 34359738367]
+    'rs1_val == 8607351303 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [8589934592, 17179869183]
+    'rs1_val == 6929185936 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [4294967296, 8589934591]
+    'rs1_val == 4035756470 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [2147483648, 4294967295]
+    'rs1_val == 1587807073 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [1073741824, 2147483647]
+    'rs1_val == 1027494066 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [536870912, 1073741823]
+    'rs1_val == 339827553 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [268435456, 536870911]
+    'rs1_val == 231549045 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [134217728, 268435455]
+    'rs1_val == 107790943 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [67108864, 134217727]
+    'rs1_val == 45276376 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [33554432, 67108863]
+    'rs1_val == 32105925 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [16777216, 33554431]
+    'rs1_val == 12789625 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [8388608, 16777215]
+    'rs1_val == 6573466 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [4194304, 8388607]
+    'rs1_val == 3864061 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [2097152, 4194303]
+    'rs1_val == 1848861 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [1048576, 2097151]
+    'rs1_val == 896618 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [524288, 1048575]
+    'rs1_val == 334857 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [262144, 524287]
+    'rs1_val == 241276 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [131072, 262143]
+    'rs1_val == 71376 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [65536, 131071]
+    'rs1_val == 56436 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [32768, 65535]
+    'rs1_val == 24575 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [16384, 32767]
+    'rs1_val == 9438 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [8192, 16383]
+    'rs1_val == 6781 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [4096, 8191]
+    'rs1_val == 4055 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [2048, 4095]
+    'rs1_val == 1094 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [1024, 2047]
+    'rs1_val == 676 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [512, 1023]
+    'rs1_val == 398 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [256, 511]
+    'rs1_val == 253 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [128, 255]
+    'rs1_val == 123 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [64, 127]
+    'rs1_val == 45 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [32, 63]
+    'rs1_val == 16 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [16, 31]
+    'rs1_val == 15 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [8, 15]
+    'rs1_val == 7 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [4, 7]
+    'rs1_val == 2 and rm_val == 0  #nosat': 1 #  Random number chosen in the range: [2, 3]
+    'rs1_val == 1 and rm_val == 0  #nosat': 1 #  Number in [1]
+    coverage: 64/64
+  total_coverage: 129/129

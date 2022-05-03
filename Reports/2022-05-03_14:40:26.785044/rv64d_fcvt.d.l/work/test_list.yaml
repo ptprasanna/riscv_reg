@@ -1,0 +1,23 @@
+# testlist generated on 2022-05-03 09:11 GMT
+/home/riscv/RRF/Reports/2022-05-03_14:40:26.785044/rv64d_fcvt.d.l/tests/fcvt.d.l_b25-01.S:
+  commit_id: '-'
+  work_dir: /home/riscv/RRF/Reports/2022-05-03_14:40:26.785044/rv64d_fcvt.d.l/work/fcvt.d.l_b25-01.S
+  macros:
+  - TEST_CASE_1=True
+  - XLEN=64
+  - FLEN=64
+  isa: RV64IFD
+  coverage_labels:
+  - fcvt.d.l_b25
+  test_path: /home/riscv/RRF/Reports/2022-05-03_14:40:26.785044/rv64d_fcvt.d.l/tests/fcvt.d.l_b25-01.S
+/home/riscv/RRF/Reports/2022-05-03_14:40:26.785044/rv64d_fcvt.d.l/tests/fcvt.d.l_b26-01.S:
+  commit_id: '-'
+  work_dir: /home/riscv/RRF/Reports/2022-05-03_14:40:26.785044/rv64d_fcvt.d.l/work/fcvt.d.l_b26-01.S
+  macros:
+  - TEST_CASE_1=True
+  - XLEN=64
+  - FLEN=64
+  isa: RV64IFD
+  coverage_labels:
+  - fcvt.d.l_b26
+  test_path: /home/riscv/RRF/Reports/2022-05-03_14:40:26.785044/rv64d_fcvt.d.l/tests/fcvt.d.l_b26-01.S

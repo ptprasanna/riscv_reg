@@ -1,0 +1,15 @@
+# database generated on 2022-05-02 12:54 GMT
+!!omap
+- /home/riscv/RRF/Reports/2022-05-02_18:24:38.736136/fclass/tests/fclass_b1-01.S:
+    commit_id: '-'
+    isa:
+    - RV32IF
+    parts: !!omap
+    - '0':
+        check:
+        - check ISA:=regex(.*32.*)
+        - check ISA:=regex(.*I.*F.*)
+        define:
+        - def TEST_CASE_1=True
+        coverage_labels:
+        - fclass_b1

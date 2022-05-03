@@ -1,0 +1,7 @@
+#URLS of the git hub repository
+CTG_PATH: https://github.com/riscv-software-src/riscv-ctg/commits/floating-point-dev.atom
+ISAC_PATH: https://github.com/riscv-software-src/riscv-isac/commits/floating-point-dev.atom
+CTG_COM: 2022-04-20 10:14:09
+ISAC_COM: 2022-04-20 10:15:13
+FOLD_REP: "./Reports"
+DATASET: "/home/riscv/riscv-ctg/sample_cgfs/dataset.cgf"

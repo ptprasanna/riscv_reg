@@ -1,0 +1,1291 @@
+    INFO | ****** RISC-V Compliance Test Generator 0.6.3 *******
+    INFO | Copyright (c) 2020, InCore Semiconductors Pvt. Ltd.
+    INFO | All Rights Reserved.
+    INFO | Copying env folder to Output directory.
+   DEBUG | Generated   24 32-bit coverpoints using Model B1 for fclass.s !
+    INFO | Generating Test for :fclass_b1-fclass.s
+   DEBUG | fclass.s : Generating OpComb
+   DEBUG | fclass.s : Generating ValComb
+    INFO | Writing tests for :fclass_b1
+   DEBUG | Writing Test to /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/tests/fclass_b1-01.S
+    INFO | ****** RISCOF: RISC-V Architectural Test Framework 1.23.4 *******
+    INFO | using riscv_isac version : 0.11.0
+    INFO | using riscv_config version : 2.12.1
+   DEBUG | Creating new work directory: /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/work
+    INFO | Reading configuration from: /home/riscv/config/32/config.ini
+    INFO | Preparing Models
+   DEBUG | Path entry found: /home/riscv/sail_cSim
+   DEBUG | Using the path: /home/riscv/sail_cSim
+   DEBUG | Path entry found: /home/riscv/sail_cSim
+   DEBUG | Using the path: /home/riscv/sail_cSim
+   DEBUG | Importing sail_cSim plugin from: /home/riscv/sail_cSim
+   DEBUG | SAIL CSim plugin initialised using the following configuration.
+   DEBUG | pluginpath : /home/riscv/sail_cSim
+   DEBUG | ispec : /home/riscv/sail_cSim/32/sail_cSim_isa.yaml
+   DEBUG | pspec : /home/riscv/sail_cSim/32/sail_cSim_platform.yaml
+   DEBUG | target_run : 1
+   DEBUG | jobs : 12
+   DEBUG | Importing sail_cSim plugin from: /home/riscv/sail_cSim
+   DEBUG | SAIL CSim plugin initialised using the following configuration.
+   DEBUG | pluginpath : /home/riscv/sail_cSim
+   DEBUG | ispec : /home/riscv/sail_cSim/32/sail_cSim_isa.yaml
+   DEBUG | pspec : /home/riscv/sail_cSim/32/sail_cSim_platform.yaml
+   DEBUG | target_run : 1
+   DEBUG | jobs : 12
+    INFO | Input-ISA file
+    INFO | Loading input file: /home/riscv/sail_cSim/32/sail_cSim_isa.yaml
+    INFO | Load Schema /home/riscv/.local/lib/python3.6/site-packages/riscv_config/schemas/schema_isa.yaml
+    INFO | Processing Hart: hart0
+    INFO | Initiating Validation
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 9223372036854775808 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 4611686018427387904 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 2305843009213693952 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 1152921504606846976 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 576460752303423488 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 288230376151711744 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 144115188075855872 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 72057594037927936 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 36028797018963968 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 18014398509481984 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 9007199254740992 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 4503599627370496 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 2251799813685248 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 1125899906842624 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 562949953421312 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 281474976710656 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 140737488355328 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 70368744177664 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 35184372088832 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 17592186044416 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 8796093022208 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 4398046511104 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 2199023255552 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 1099511627776 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 549755813888 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 274877906944 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 137438953472 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 68719476736 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 34359738368 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 17179869184 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 8589934592 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 4294967296 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 2147483648 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 1073741824 dep_vals :[]
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - scounteren[31:0] in [0x00000000]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 536870912 dep_vals :[]
+    INFO | No errors for Hart: 0 :)
+    INFO | Initiating post processing and reset value checks.
+   DEBUG | Checking Reset fields for: misa
+   DEBUG | --> Subfield: extensions
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - extensions[25:0] bitmask [0x0001104, 0x0000000]
+wr_illegal:
+   - Unchanged
+
+
+ With following args:val : 4396 dep_vals :[]
+   DEBUG | --> Subfield: mxl
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - mxl[1:0] in [0x1]
+wr_illegal:
+   - Unchanged
+
+ With following args:val : 1 dep_vals :[]
+   DEBUG | Checking Reset fields for: mstatus
+   DEBUG | --> Subfield: mie
+   DEBUG | --> Subfield: mpie
+   DEBUG | --> Subfield: mpp
+   DEBUG | --> Subfield: fs
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - fs[1:0] in [0x0:0x3]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 0 dep_vals :[]
+   DEBUG | --> Subfield: sd
+   DEBUG | Checking Reset fields for: mstatush
+   DEBUG | Checking Reset fields for: mvendorid
+   DEBUG | Checking Reset fields for: marchid
+   DEBUG | Checking Reset fields for: mimpid
+   DEBUG | Checking Reset fields for: mhartid
+   DEBUG | Checking Reset fields for: mtvec
+   DEBUG | --> Subfield: mode
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - mode[1:0] in [0x0,0x1]
+wr_illegal:
+   - Unchanged
+
+ With following args:val : 0 dep_vals :[]
+   DEBUG | --> Subfield: base
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - base[29:0] bitmask [0x3FFFFFFF, 0x00000000]
+wr_illegal:
+   - Unchanged
+
+ With following args:val : 0 dep_vals :[]
+   DEBUG | Checking Reset fields for: mideleg
+   DEBUG | Checking Reset fields for: medeleg
+   DEBUG | Checking Reset fields for: mip
+   DEBUG | --> Subfield: msip
+   DEBUG | --> Subfield: mtip
+   DEBUG | --> Subfield: meip
+   DEBUG | Checking Reset fields for: hie
+   DEBUG | Checking Reset fields for: mie
+   DEBUG | --> Subfield: msie
+   DEBUG | --> Subfield: mtie
+   DEBUG | --> Subfield: meie
+   DEBUG | Checking Reset fields for: mscratch
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - mscratch[31:0] in [0x00000000:0xFFFFFFFF]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 0 dep_vals :[]
+   DEBUG | Checking Reset fields for: mepc
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - mepc[31:0] in [0x00000000:0xFFFFFFFF]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 0 dep_vals :[]
+   DEBUG | Checking Reset fields for: mtval
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - mtval[31:0] in [0x00000000:0xFFFFFFFF]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 0 dep_vals :[]
+   DEBUG | Checking Reset fields for: mcause
+   DEBUG | --> Subfield: exception_code
+   DEBUG | --> Subfield: interrupt
+   DEBUG | Checking Reset fields for: pmpcfg0
+   DEBUG | Checking Reset fields for: pmpcfg1
+   DEBUG | Checking Reset fields for: pmpcfg2
+   DEBUG | Checking Reset fields for: pmpcfg3
+   DEBUG | Checking Reset fields for: pmpcfg4
+   DEBUG | Checking Reset fields for: pmpcfg5
+   DEBUG | Checking Reset fields for: pmpcfg6
+   DEBUG | Checking Reset fields for: pmpcfg7
+   DEBUG | Checking Reset fields for: pmpcfg8
+   DEBUG | Checking Reset fields for: pmpcfg9
+   DEBUG | Checking Reset fields for: pmpcfg10
+   DEBUG | Checking Reset fields for: pmpcfg11
+   DEBUG | Checking Reset fields for: pmpcfg12
+   DEBUG | Checking Reset fields for: pmpcfg13
+   DEBUG | Checking Reset fields for: pmpcfg14
+   DEBUG | Checking Reset fields for: pmpcfg15
+   DEBUG | Checking Reset fields for: pmpaddr0
+   DEBUG | Checking Reset fields for: pmpaddr1
+   DEBUG | Checking Reset fields for: pmpaddr2
+   DEBUG | Checking Reset fields for: pmpaddr3
+   DEBUG | Checking Reset fields for: pmpaddr4
+   DEBUG | Checking Reset fields for: pmpaddr5
+   DEBUG | Checking Reset fields for: pmpaddr6
+   DEBUG | Checking Reset fields for: pmpaddr7
+   DEBUG | Checking Reset fields for: pmpaddr8
+   DEBUG | Checking Reset fields for: pmpaddr9
+   DEBUG | Checking Reset fields for: pmpaddr10
+   DEBUG | Checking Reset fields for: pmpaddr11
+   DEBUG | Checking Reset fields for: pmpaddr12
+   DEBUG | Checking Reset fields for: pmpaddr13
+   DEBUG | Checking Reset fields for: pmpaddr14
+   DEBUG | Checking Reset fields for: pmpaddr15
+   DEBUG | Checking Reset fields for: pmpaddr16
+   DEBUG | Checking Reset fields for: pmpaddr17
+   DEBUG | Checking Reset fields for: pmpaddr18
+   DEBUG | Checking Reset fields for: pmpaddr19
+   DEBUG | Checking Reset fields for: pmpaddr20
+   DEBUG | Checking Reset fields for: pmpaddr21
+   DEBUG | Checking Reset fields for: pmpaddr22
+   DEBUG | Checking Reset fields for: pmpaddr23
+   DEBUG | Checking Reset fields for: pmpaddr24
+   DEBUG | Checking Reset fields for: pmpaddr25
+   DEBUG | Checking Reset fields for: pmpaddr26
+   DEBUG | Checking Reset fields for: pmpaddr27
+   DEBUG | Checking Reset fields for: pmpaddr28
+   DEBUG | Checking Reset fields for: pmpaddr29
+   DEBUG | Checking Reset fields for: pmpaddr30
+   DEBUG | Checking Reset fields for: pmpaddr31
+   DEBUG | Checking Reset fields for: pmpaddr32
+   DEBUG | Checking Reset fields for: pmpaddr33
+   DEBUG | Checking Reset fields for: pmpaddr34
+   DEBUG | Checking Reset fields for: pmpaddr35
+   DEBUG | Checking Reset fields for: pmpaddr36
+   DEBUG | Checking Reset fields for: pmpaddr37
+   DEBUG | Checking Reset fields for: pmpaddr38
+   DEBUG | Checking Reset fields for: pmpaddr39
+   DEBUG | Checking Reset fields for: pmpaddr40
+   DEBUG | Checking Reset fields for: pmpaddr41
+   DEBUG | Checking Reset fields for: pmpaddr42
+   DEBUG | Checking Reset fields for: pmpaddr43
+   DEBUG | Checking Reset fields for: pmpaddr44
+   DEBUG | Checking Reset fields for: pmpaddr45
+   DEBUG | Checking Reset fields for: pmpaddr46
+   DEBUG | Checking Reset fields for: pmpaddr47
+   DEBUG | Checking Reset fields for: pmpaddr48
+   DEBUG | Checking Reset fields for: pmpaddr49
+   DEBUG | Checking Reset fields for: pmpaddr50
+   DEBUG | Checking Reset fields for: pmpaddr51
+   DEBUG | Checking Reset fields for: pmpaddr52
+   DEBUG | Checking Reset fields for: pmpaddr53
+   DEBUG | Checking Reset fields for: pmpaddr54
+   DEBUG | Checking Reset fields for: pmpaddr55
+   DEBUG | Checking Reset fields for: pmpaddr56
+   DEBUG | Checking Reset fields for: pmpaddr57
+   DEBUG | Checking Reset fields for: pmpaddr58
+   DEBUG | Checking Reset fields for: pmpaddr59
+   DEBUG | Checking Reset fields for: pmpaddr60
+   DEBUG | Checking Reset fields for: pmpaddr61
+   DEBUG | Checking Reset fields for: pmpaddr62
+   DEBUG | Checking Reset fields for: pmpaddr63
+   DEBUG | Checking Reset fields for: mcounteren
+   DEBUG | Checking Reset fields for: mcountinhibit
+   DEBUG | Checking Reset fields for: mcycle
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - mcycle[31:0] in [0x00000000:0xFFFFFFFF]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 0 dep_vals :[]
+   DEBUG | Checking Reset fields for: mcycleh
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - mcycleh[31:0] in [0x00000000:0xFFFFFFFF]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 0 dep_vals :[]
+   DEBUG | Checking Reset fields for: minstret
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - minstret[31:0] in [0x00000000:0xFFFFFFFF]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 0 dep_vals :[]
+   DEBUG | Checking Reset fields for: minstreth
+   DEBUG | Checking for isLegal for WARL: 
+	dependency_fields: []
+legal:
+   - minstreth[31:0] in [0x00000000:0xFFFFFFFF]
+wr_illegal:
+   - unchanged
+
+ With following args:val : 0 dep_vals :[]
+   DEBUG | Checking Reset fields for: mhpmevent3
+   DEBUG | Checking Reset fields for: mhpmcounter3
+   DEBUG | Checking Reset fields for: mhpmcounter3h
+   DEBUG | Checking Reset fields for: mhpmevent4
+   DEBUG | Checking Reset fields for: mhpmcounter4
+   DEBUG | Checking Reset fields for: mhpmcounter4h
+   DEBUG | Checking Reset fields for: mhpmevent5
+   DEBUG | Checking Reset fields for: mhpmcounter5
+   DEBUG | Checking Reset fields for: mhpmcounter5h
+   DEBUG | Checking Reset fields for: mhpmevent6
+   DEBUG | Checking Reset fields for: mhpmcounter6
+   DEBUG | Checking Reset fields for: mhpmcounter6h
+   DEBUG | Checking Reset fields for: mhpmevent7
+   DEBUG | Checking Reset fields for: mhpmcounter7
+   DEBUG | Checking Reset fields for: mhpmcounter7h
+   DEBUG | Checking Reset fields for: mhpmevent8
+   DEBUG | Checking Reset fields for: mhpmcounter8
+   DEBUG | Checking Reset fields for: mhpmcounter8h
+   DEBUG | Checking Reset fields for: mhpmevent9
+   DEBUG | Checking Reset fields for: mhpmcounter9
+   DEBUG | Checking Reset fields for: mhpmcounter9h
+   DEBUG | Checking Reset fields for: mhpmevent10
+   DEBUG | Checking Reset fields for: mhpmcounter10
+   DEBUG | Checking Reset fields for: mhpmcounter10h
+   DEBUG | Checking Reset fields for: mhpmevent11
+   DEBUG | Checking Reset fields for: mhpmcounter11
+   DEBUG | Checking Reset fields for: mhpmcounter11h
+   DEBUG | Checking Reset fields for: mhpmevent12
+   DEBUG | Checking Reset fields for: mhpmcounter12
+   DEBUG | Checking Reset fields for: mhpmcounter12h
+   DEBUG | Checking Reset fields for: mhpmevent13
+   DEBUG | Checking Reset fields for: mhpmcounter13
+   DEBUG | Checking Reset fields for: mhpmcounter13h
+   DEBUG | Checking Reset fields for: mhpmevent14
+   DEBUG | Checking Reset fields for: mhpmcounter14
+   DEBUG | Checking Reset fields for: mhpmcounter14h
+   DEBUG | Checking Reset fields for: mhpmevent15
+   DEBUG | Checking Reset fields for: mhpmcounter15
+   DEBUG | Checking Reset fields for: mhpmcounter15h
+   DEBUG | Checking Reset fields for: mhpmevent16
+   DEBUG | Checking Reset fields for: mhpmcounter16
+   DEBUG | Checking Reset fields for: mhpmcounter16h
+   DEBUG | Checking Reset fields for: mhpmevent17
+   DEBUG | Checking Reset fields for: mhpmcounter17
+   DEBUG | Checking Reset fields for: mhpmcounter17h
+   DEBUG | Checking Reset fields for: mhpmevent18
+   DEBUG | Checking Reset fields for: mhpmcounter18
+   DEBUG | Checking Reset fields for: mhpmcounter18h
+   DEBUG | Checking Reset fields for: mhpmevent19
+   DEBUG | Checking Reset fields for: mhpmcounter19
+   DEBUG | Checking Reset fields for: mhpmcounter19h
+   DEBUG | Checking Reset fields for: mhpmevent20
+   DEBUG | Checking Reset fields for: mhpmcounter20
+   DEBUG | Checking Reset fields for: mhpmcounter20h
+   DEBUG | Checking Reset fields for: mhpmevent21
+   DEBUG | Checking Reset fields for: mhpmcounter21
+   DEBUG | Checking Reset fields for: mhpmcounter21h
+   DEBUG | Checking Reset fields for: mhpmevent22
+   DEBUG | Checking Reset fields for: mhpmcounter22
+   DEBUG | Checking Reset fields for: mhpmcounter22h
+   DEBUG | Checking Reset fields for: mhpmevent23
+   DEBUG | Checking Reset fields for: mhpmcounter23
+   DEBUG | Checking Reset fields for: mhpmcounter23h
+   DEBUG | Checking Reset fields for: mhpmevent24
+   DEBUG | Checking Reset fields for: mhpmcounter24
+   DEBUG | Checking Reset fields for: mhpmcounter24h
+   DEBUG | Checking Reset fields for: mhpmevent25
+   DEBUG | Checking Reset fields for: mhpmcounter25
+   DEBUG | Checking Reset fields for: mhpmcounter25h
+   DEBUG | Checking Reset fields for: mhpmevent26
+   DEBUG | Checking Reset fields for: mhpmcounter26
+   DEBUG | Checking Reset fields for: mhpmcounter26h
+   DEBUG | Checking Reset fields for: mhpmevent27
+   DEBUG | Checking Reset fields for: mhpmcounter27
+   DEBUG | Checking Reset fields for: mhpmcounter27h
+   DEBUG | Checking Reset fields for: mhpmevent28
+   DEBUG | Checking Reset fields for: mhpmcounter28
+   DEBUG | Checking Reset fields for: mhpmcounter28h
+   DEBUG | Checking Reset fields for: mhpmevent29
+   DEBUG | Checking Reset fields for: mhpmcounter29
+   DEBUG | Checking Reset fields for: mhpmcounter29h
+   DEBUG | Checking Reset fields for: mhpmevent30
+   DEBUG | Checking Reset fields for: mhpmcounter30
+   DEBUG | Checking Reset fields for: mhpmcounter30h
+   DEBUG | Checking Reset fields for: mhpmevent31
+   DEBUG | Checking Reset fields for: mhpmcounter31
+   DEBUG | Checking Reset fields for: mhpmcounter31h
+   DEBUG | Checking Reset fields for: sedeleg
+   DEBUG | Checking Reset fields for: sideleg
+   DEBUG | Checking Reset fields for: fflags
+   DEBUG | Checking Reset fields for: frm
+   DEBUG | Checking Reset fields for: fcsr
+   DEBUG | Checking Reset fields for: cycle
+   DEBUG | Checking Reset fields for: cycleh
+   DEBUG | Checking Reset fields for: time
+   DEBUG | Checking Reset fields for: timeh
+   DEBUG | Checking Reset fields for: instret
+   DEBUG | Checking Reset fields for: instreth
+   DEBUG | Checking Reset fields for: hpmcounter3
+   DEBUG | Checking Reset fields for: hpmcounter4
+   DEBUG | Checking Reset fields for: hpmcounter5
+   DEBUG | Checking Reset fields for: hpmcounter6
+   DEBUG | Checking Reset fields for: hpmcounter7
+   DEBUG | Checking Reset fields for: hpmcounter8
+   DEBUG | Checking Reset fields for: hpmcounter9
+   DEBUG | Checking Reset fields for: hpmcounter10
+   DEBUG | Checking Reset fields for: hpmcounter11
+   DEBUG | Checking Reset fields for: hpmcounter12
+   DEBUG | Checking Reset fields for: hpmcounter13
+   DEBUG | Checking Reset fields for: hpmcounter14
+   DEBUG | Checking Reset fields for: hpmcounter15
+   DEBUG | Checking Reset fields for: hpmcounter16
+   DEBUG | Checking Reset fields for: hpmcounter17
+   DEBUG | Checking Reset fields for: hpmcounter18
+   DEBUG | Checking Reset fields for: hpmcounter19
+   DEBUG | Checking Reset fields for: hpmcounter20
+   DEBUG | Checking Reset fields for: hpmcounter21
+   DEBUG | Checking Reset fields for: hpmcounter22
+   DEBUG | Checking Reset fields for: hpmcounter23
+   DEBUG | Checking Reset fields for: hpmcounter24
+   DEBUG | Checking Reset fields for: hpmcounter25
+   DEBUG | Checking Reset fields for: hpmcounter26
+   DEBUG | Checking Reset fields for: hpmcounter27
+   DEBUG | Checking Reset fields for: hpmcounter28
+   DEBUG | Checking Reset fields for: hpmcounter29
+   DEBUG | Checking Reset fields for: hpmcounter30
+   DEBUG | Checking Reset fields for: hpmcounter31
+   DEBUG | Checking Reset fields for: hpmcounter3h
+   DEBUG | Checking Reset fields for: hpmcounter4h
+   DEBUG | Checking Reset fields for: hpmcounter5h
+   DEBUG | Checking Reset fields for: hpmcounter6h
+   DEBUG | Checking Reset fields for: hpmcounter7h
+   DEBUG | Checking Reset fields for: hpmcounter8h
+   DEBUG | Checking Reset fields for: hpmcounter9h
+   DEBUG | Checking Reset fields for: hpmcounter10h
+   DEBUG | Checking Reset fields for: hpmcounter11h
+   DEBUG | Checking Reset fields for: hpmcounter12h
+   DEBUG | Checking Reset fields for: hpmcounter13h
+   DEBUG | Checking Reset fields for: hpmcounter14h
+   DEBUG | Checking Reset fields for: hpmcounter15h
+   DEBUG | Checking Reset fields for: hpmcounter16h
+   DEBUG | Checking Reset fields for: hpmcounter17h
+   DEBUG | Checking Reset fields for: hpmcounter18h
+   DEBUG | Checking Reset fields for: hpmcounter19h
+   DEBUG | Checking Reset fields for: hpmcounter20h
+   DEBUG | Checking Reset fields for: hpmcounter21h
+   DEBUG | Checking Reset fields for: hpmcounter22h
+   DEBUG | Checking Reset fields for: hpmcounter23h
+   DEBUG | Checking Reset fields for: hpmcounter24h
+   DEBUG | Checking Reset fields for: hpmcounter25h
+   DEBUG | Checking Reset fields for: hpmcounter26h
+   DEBUG | Checking Reset fields for: hpmcounter27h
+   DEBUG | Checking Reset fields for: hpmcounter28h
+   DEBUG | Checking Reset fields for: hpmcounter29h
+   DEBUG | Checking Reset fields for: hpmcounter30h
+   DEBUG | Checking Reset fields for: hpmcounter31h
+   DEBUG | Checking Reset fields for: sstatus
+   DEBUG | Checking Reset fields for: sie
+   DEBUG | Checking Reset fields for: sip
+   DEBUG | Checking Reset fields for: sscratch
+   DEBUG | Checking Reset fields for: sepc
+   DEBUG | Checking Reset fields for: stval
+   DEBUG | Checking Reset fields for: scause
+   DEBUG | Checking Reset fields for: stvec
+   DEBUG | Checking Reset fields for: satp
+   DEBUG | Checking Reset fields for: ustatus
+   DEBUG | Checking Reset fields for: uie
+   DEBUG | Checking Reset fields for: uip
+   DEBUG | Checking Reset fields for: uscratch
+   DEBUG | Checking Reset fields for: uepc
+   DEBUG | Checking Reset fields for: utval
+   DEBUG | Checking Reset fields for: ucause
+   DEBUG | Checking Reset fields for: utvec
+   DEBUG | Checking Reset fields for: scounteren
+   DEBUG | Checking Reset fields for: hstatus
+   DEBUG | Checking Reset fields for: hideleg
+   DEBUG | Checking Reset fields for: hedeleg
+   DEBUG | Checking Reset fields for: hip
+   DEBUG | Checking Reset fields for: hvip
+   DEBUG | Checking Reset fields for: hgeip
+   DEBUG | Checking Reset fields for: hgeie
+   DEBUG | Checking Reset fields for: htval
+   DEBUG | Checking Reset fields for: htinst
+   DEBUG | Checking Reset fields for: mtval2
+   DEBUG | Checking Reset fields for: mtinst
+   DEBUG | Checking Reset fields for: hgatp
+   DEBUG | Checking Reset fields for: hcounteren
+   DEBUG | Checking Reset fields for: htimedelta
+   DEBUG | Checking Reset fields for: htimedeltah
+   DEBUG | Checking Reset fields for: vsstatus
+   DEBUG | Checking Reset fields for: vsie
+   DEBUG | Checking Reset fields for: vsip
+   DEBUG | Checking Reset fields for: vsscratch
+   DEBUG | Checking Reset fields for: vsepc
+   DEBUG | Checking Reset fields for: vstval
+   DEBUG | Checking Reset fields for: vscause
+   DEBUG | Checking Reset fields for: vstvec
+   DEBUG | Checking Reset fields for: vsatp
+   DEBUG | Checking Shadows for ISA
+   DEBUG | Checking Shadows for physical_addr_sz
+   DEBUG | Checking Shadows for User_Spec_Version
+   DEBUG | Checking Shadows for supported_xlen
+   DEBUG | Checking Shadows for misa
+   DEBUG | Checking Shadows for Privilege_Spec_Version
+   DEBUG | Checking Shadows for hw_data_misaligned_support
+   DEBUG | Checking Shadows for pmp_granularity
+   DEBUG | Checking Shadows for custom_exceptions
+   DEBUG | Checking Shadows for custom_interrupts
+   DEBUG | Checking Shadows for mstatus
+   DEBUG | Checking Shadows for mstatush
+   DEBUG | Checking Shadows for mvendorid
+   DEBUG | Checking Shadows for marchid
+   DEBUG | Checking Shadows for mimpid
+   DEBUG | Checking Shadows for mhartid
+   DEBUG | Checking Shadows for mtvec
+   DEBUG | Checking Shadows for mideleg
+   DEBUG | Checking Shadows for medeleg
+   DEBUG | Checking Shadows for mip
+   DEBUG | Checking Shadows for hie
+   DEBUG | Checking Shadows for mie
+   DEBUG | Checking Shadows for mscratch
+   DEBUG | Checking Shadows for mepc
+   DEBUG | Checking Shadows for mtval
+   DEBUG | Checking Shadows for mcause
+   DEBUG | Checking Shadows for pmpcfg0
+   DEBUG | Checking Shadows for pmpcfg1
+   DEBUG | Checking Shadows for pmpcfg2
+   DEBUG | Checking Shadows for pmpcfg3
+   DEBUG | Checking Shadows for pmpcfg4
+   DEBUG | Checking Shadows for pmpcfg5
+   DEBUG | Checking Shadows for pmpcfg6
+   DEBUG | Checking Shadows for pmpcfg7
+   DEBUG | Checking Shadows for pmpcfg8
+   DEBUG | Checking Shadows for pmpcfg9
+   DEBUG | Checking Shadows for pmpcfg10
+   DEBUG | Checking Shadows for pmpcfg11
+   DEBUG | Checking Shadows for pmpcfg12
+   DEBUG | Checking Shadows for pmpcfg13
+   DEBUG | Checking Shadows for pmpcfg14
+   DEBUG | Checking Shadows for pmpcfg15
+   DEBUG | Checking Shadows for pmpaddr0
+   DEBUG | Checking Shadows for pmpaddr1
+   DEBUG | Checking Shadows for pmpaddr2
+   DEBUG | Checking Shadows for pmpaddr3
+   DEBUG | Checking Shadows for pmpaddr4
+   DEBUG | Checking Shadows for pmpaddr5
+   DEBUG | Checking Shadows for pmpaddr6
+   DEBUG | Checking Shadows for pmpaddr7
+   DEBUG | Checking Shadows for pmpaddr8
+   DEBUG | Checking Shadows for pmpaddr9
+   DEBUG | Checking Shadows for pmpaddr10
+   DEBUG | Checking Shadows for pmpaddr11
+   DEBUG | Checking Shadows for pmpaddr12
+   DEBUG | Checking Shadows for pmpaddr13
+   DEBUG | Checking Shadows for pmpaddr14
+   DEBUG | Checking Shadows for pmpaddr15
+   DEBUG | Checking Shadows for pmpaddr16
+   DEBUG | Checking Shadows for pmpaddr17
+   DEBUG | Checking Shadows for pmpaddr18
+   DEBUG | Checking Shadows for pmpaddr19
+   DEBUG | Checking Shadows for pmpaddr20
+   DEBUG | Checking Shadows for pmpaddr21
+   DEBUG | Checking Shadows for pmpaddr22
+   DEBUG | Checking Shadows for pmpaddr23
+   DEBUG | Checking Shadows for pmpaddr24
+   DEBUG | Checking Shadows for pmpaddr25
+   DEBUG | Checking Shadows for pmpaddr26
+   DEBUG | Checking Shadows for pmpaddr27
+   DEBUG | Checking Shadows for pmpaddr28
+   DEBUG | Checking Shadows for pmpaddr29
+   DEBUG | Checking Shadows for pmpaddr30
+   DEBUG | Checking Shadows for pmpaddr31
+   DEBUG | Checking Shadows for pmpaddr32
+   DEBUG | Checking Shadows for pmpaddr33
+   DEBUG | Checking Shadows for pmpaddr34
+   DEBUG | Checking Shadows for pmpaddr35
+   DEBUG | Checking Shadows for pmpaddr36
+   DEBUG | Checking Shadows for pmpaddr37
+   DEBUG | Checking Shadows for pmpaddr38
+   DEBUG | Checking Shadows for pmpaddr39
+   DEBUG | Checking Shadows for pmpaddr40
+   DEBUG | Checking Shadows for pmpaddr41
+   DEBUG | Checking Shadows for pmpaddr42
+   DEBUG | Checking Shadows for pmpaddr43
+   DEBUG | Checking Shadows for pmpaddr44
+   DEBUG | Checking Shadows for pmpaddr45
+   DEBUG | Checking Shadows for pmpaddr46
+   DEBUG | Checking Shadows for pmpaddr47
+   DEBUG | Checking Shadows for pmpaddr48
+   DEBUG | Checking Shadows for pmpaddr49
+   DEBUG | Checking Shadows for pmpaddr50
+   DEBUG | Checking Shadows for pmpaddr51
+   DEBUG | Checking Shadows for pmpaddr52
+   DEBUG | Checking Shadows for pmpaddr53
+   DEBUG | Checking Shadows for pmpaddr54
+   DEBUG | Checking Shadows for pmpaddr55
+   DEBUG | Checking Shadows for pmpaddr56
+   DEBUG | Checking Shadows for pmpaddr57
+   DEBUG | Checking Shadows for pmpaddr58
+   DEBUG | Checking Shadows for pmpaddr59
+   DEBUG | Checking Shadows for pmpaddr60
+   DEBUG | Checking Shadows for pmpaddr61
+   DEBUG | Checking Shadows for pmpaddr62
+   DEBUG | Checking Shadows for pmpaddr63
+   DEBUG | Checking Shadows for mcounteren
+   DEBUG | Checking Shadows for mcountinhibit
+   DEBUG | Checking Shadows for mcycle
+   DEBUG | Checking Shadows for mcycleh
+   DEBUG | Checking Shadows for minstret
+   DEBUG | Checking Shadows for minstreth
+   DEBUG | Checking Shadows for mhpmevent3
+   DEBUG | Checking Shadows for mhpmcounter3
+   DEBUG | Checking Shadows for mhpmcounter3h
+   DEBUG | Checking Shadows for mhpmevent4
+   DEBUG | Checking Shadows for mhpmcounter4
+   DEBUG | Checking Shadows for mhpmcounter4h
+   DEBUG | Checking Shadows for mhpmevent5
+   DEBUG | Checking Shadows for mhpmcounter5
+   DEBUG | Checking Shadows for mhpmcounter5h
+   DEBUG | Checking Shadows for mhpmevent6
+   DEBUG | Checking Shadows for mhpmcounter6
+   DEBUG | Checking Shadows for mhpmcounter6h
+   DEBUG | Checking Shadows for mhpmevent7
+   DEBUG | Checking Shadows for mhpmcounter7
+   DEBUG | Checking Shadows for mhpmcounter7h
+   DEBUG | Checking Shadows for mhpmevent8
+   DEBUG | Checking Shadows for mhpmcounter8
+   DEBUG | Checking Shadows for mhpmcounter8h
+   DEBUG | Checking Shadows for mhpmevent9
+   DEBUG | Checking Shadows for mhpmcounter9
+   DEBUG | Checking Shadows for mhpmcounter9h
+   DEBUG | Checking Shadows for mhpmevent10
+   DEBUG | Checking Shadows for mhpmcounter10
+   DEBUG | Checking Shadows for mhpmcounter10h
+   DEBUG | Checking Shadows for mhpmevent11
+   DEBUG | Checking Shadows for mhpmcounter11
+   DEBUG | Checking Shadows for mhpmcounter11h
+   DEBUG | Checking Shadows for mhpmevent12
+   DEBUG | Checking Shadows for mhpmcounter12
+   DEBUG | Checking Shadows for mhpmcounter12h
+   DEBUG | Checking Shadows for mhpmevent13
+   DEBUG | Checking Shadows for mhpmcounter13
+   DEBUG | Checking Shadows for mhpmcounter13h
+   DEBUG | Checking Shadows for mhpmevent14
+   DEBUG | Checking Shadows for mhpmcounter14
+   DEBUG | Checking Shadows for mhpmcounter14h
+   DEBUG | Checking Shadows for mhpmevent15
+   DEBUG | Checking Shadows for mhpmcounter15
+   DEBUG | Checking Shadows for mhpmcounter15h
+   DEBUG | Checking Shadows for mhpmevent16
+   DEBUG | Checking Shadows for mhpmcounter16
+   DEBUG | Checking Shadows for mhpmcounter16h
+   DEBUG | Checking Shadows for mhpmevent17
+   DEBUG | Checking Shadows for mhpmcounter17
+   DEBUG | Checking Shadows for mhpmcounter17h
+   DEBUG | Checking Shadows for mhpmevent18
+   DEBUG | Checking Shadows for mhpmcounter18
+   DEBUG | Checking Shadows for mhpmcounter18h
+   DEBUG | Checking Shadows for mhpmevent19
+   DEBUG | Checking Shadows for mhpmcounter19
+   DEBUG | Checking Shadows for mhpmcounter19h
+   DEBUG | Checking Shadows for mhpmevent20
+   DEBUG | Checking Shadows for mhpmcounter20
+   DEBUG | Checking Shadows for mhpmcounter20h
+   DEBUG | Checking Shadows for mhpmevent21
+   DEBUG | Checking Shadows for mhpmcounter21
+   DEBUG | Checking Shadows for mhpmcounter21h
+   DEBUG | Checking Shadows for mhpmevent22
+   DEBUG | Checking Shadows for mhpmcounter22
+   DEBUG | Checking Shadows for mhpmcounter22h
+   DEBUG | Checking Shadows for mhpmevent23
+   DEBUG | Checking Shadows for mhpmcounter23
+   DEBUG | Checking Shadows for mhpmcounter23h
+   DEBUG | Checking Shadows for mhpmevent24
+   DEBUG | Checking Shadows for mhpmcounter24
+   DEBUG | Checking Shadows for mhpmcounter24h
+   DEBUG | Checking Shadows for mhpmevent25
+   DEBUG | Checking Shadows for mhpmcounter25
+   DEBUG | Checking Shadows for mhpmcounter25h
+   DEBUG | Checking Shadows for mhpmevent26
+   DEBUG | Checking Shadows for mhpmcounter26
+   DEBUG | Checking Shadows for mhpmcounter26h
+   DEBUG | Checking Shadows for mhpmevent27
+   DEBUG | Checking Shadows for mhpmcounter27
+   DEBUG | Checking Shadows for mhpmcounter27h
+   DEBUG | Checking Shadows for mhpmevent28
+   DEBUG | Checking Shadows for mhpmcounter28
+   DEBUG | Checking Shadows for mhpmcounter28h
+   DEBUG | Checking Shadows for mhpmevent29
+   DEBUG | Checking Shadows for mhpmcounter29
+   DEBUG | Checking Shadows for mhpmcounter29h
+   DEBUG | Checking Shadows for mhpmevent30
+   DEBUG | Checking Shadows for mhpmcounter30
+   DEBUG | Checking Shadows for mhpmcounter30h
+   DEBUG | Checking Shadows for mhpmevent31
+   DEBUG | Checking Shadows for mhpmcounter31
+   DEBUG | Checking Shadows for mhpmcounter31h
+   DEBUG | Checking Shadows for sedeleg
+   DEBUG | Checking Shadows for sideleg
+   DEBUG | Checking Shadows for fflags
+   DEBUG | Checking Shadows for frm
+   DEBUG | Checking Shadows for fcsr
+   DEBUG | Checking Shadows for cycle
+   DEBUG | Checking Shadows for cycleh
+   DEBUG | Checking Shadows for time
+   DEBUG | Checking Shadows for timeh
+   DEBUG | Checking Shadows for instret
+   DEBUG | Checking Shadows for instreth
+   DEBUG | Checking Shadows for hpmcounter3
+   DEBUG | Checking Shadows for hpmcounter4
+   DEBUG | Checking Shadows for hpmcounter5
+   DEBUG | Checking Shadows for hpmcounter6
+   DEBUG | Checking Shadows for hpmcounter7
+   DEBUG | Checking Shadows for hpmcounter8
+   DEBUG | Checking Shadows for hpmcounter9
+   DEBUG | Checking Shadows for hpmcounter10
+   DEBUG | Checking Shadows for hpmcounter11
+   DEBUG | Checking Shadows for hpmcounter12
+   DEBUG | Checking Shadows for hpmcounter13
+   DEBUG | Checking Shadows for hpmcounter14
+   DEBUG | Checking Shadows for hpmcounter15
+   DEBUG | Checking Shadows for hpmcounter16
+   DEBUG | Checking Shadows for hpmcounter17
+   DEBUG | Checking Shadows for hpmcounter18
+   DEBUG | Checking Shadows for hpmcounter19
+   DEBUG | Checking Shadows for hpmcounter20
+   DEBUG | Checking Shadows for hpmcounter21
+   DEBUG | Checking Shadows for hpmcounter22
+   DEBUG | Checking Shadows for hpmcounter23
+   DEBUG | Checking Shadows for hpmcounter24
+   DEBUG | Checking Shadows for hpmcounter25
+   DEBUG | Checking Shadows for hpmcounter26
+   DEBUG | Checking Shadows for hpmcounter27
+   DEBUG | Checking Shadows for hpmcounter28
+   DEBUG | Checking Shadows for hpmcounter29
+   DEBUG | Checking Shadows for hpmcounter30
+   DEBUG | Checking Shadows for hpmcounter31
+   DEBUG | Checking Shadows for hpmcounter3h
+   DEBUG | Checking Shadows for hpmcounter4h
+   DEBUG | Checking Shadows for hpmcounter5h
+   DEBUG | Checking Shadows for hpmcounter6h
+   DEBUG | Checking Shadows for hpmcounter7h
+   DEBUG | Checking Shadows for hpmcounter8h
+   DEBUG | Checking Shadows for hpmcounter9h
+   DEBUG | Checking Shadows for hpmcounter10h
+   DEBUG | Checking Shadows for hpmcounter11h
+   DEBUG | Checking Shadows for hpmcounter12h
+   DEBUG | Checking Shadows for hpmcounter13h
+   DEBUG | Checking Shadows for hpmcounter14h
+   DEBUG | Checking Shadows for hpmcounter15h
+   DEBUG | Checking Shadows for hpmcounter16h
+   DEBUG | Checking Shadows for hpmcounter17h
+   DEBUG | Checking Shadows for hpmcounter18h
+   DEBUG | Checking Shadows for hpmcounter19h
+   DEBUG | Checking Shadows for hpmcounter20h
+   DEBUG | Checking Shadows for hpmcounter21h
+   DEBUG | Checking Shadows for hpmcounter22h
+   DEBUG | Checking Shadows for hpmcounter23h
+   DEBUG | Checking Shadows for hpmcounter24h
+   DEBUG | Checking Shadows for hpmcounter25h
+   DEBUG | Checking Shadows for hpmcounter26h
+   DEBUG | Checking Shadows for hpmcounter27h
+   DEBUG | Checking Shadows for hpmcounter28h
+   DEBUG | Checking Shadows for hpmcounter29h
+   DEBUG | Checking Shadows for hpmcounter30h
+   DEBUG | Checking Shadows for hpmcounter31h
+   DEBUG | Checking Shadows for sstatus
+   DEBUG | Checking Shadows for sie
+   DEBUG | Checking Shadows for sip
+   DEBUG | Checking Shadows for sscratch
+   DEBUG | Checking Shadows for sepc
+   DEBUG | Checking Shadows for stval
+   DEBUG | Checking Shadows for scause
+   DEBUG | Checking Shadows for stvec
+   DEBUG | Checking Shadows for satp
+   DEBUG | Checking Shadows for ustatus
+   DEBUG | Checking Shadows for uie
+   DEBUG | Checking Shadows for uip
+   DEBUG | Checking Shadows for uscratch
+   DEBUG | Checking Shadows for uepc
+   DEBUG | Checking Shadows for utval
+   DEBUG | Checking Shadows for ucause
+   DEBUG | Checking Shadows for utvec
+   DEBUG | Checking Shadows for scounteren
+   DEBUG | Checking Shadows for hstatus
+   DEBUG | Checking Shadows for hideleg
+   DEBUG | Checking Shadows for hedeleg
+   DEBUG | Checking Shadows for hip
+   DEBUG | Checking Shadows for hvip
+   DEBUG | Checking Shadows for hgeip
+   DEBUG | Checking Shadows for hgeie
+   DEBUG | Checking Shadows for htval
+   DEBUG | Checking Shadows for htinst
+   DEBUG | Checking Shadows for mtval2
+   DEBUG | Checking Shadows for mtinst
+   DEBUG | Checking Shadows for hgatp
+   DEBUG | Checking Shadows for hcounteren
+   DEBUG | Checking Shadows for htimedelta
+   DEBUG | Checking Shadows for htimedeltah
+   DEBUG | Checking Shadows for vsstatus
+   DEBUG | Checking Shadows for vsie
+   DEBUG | Checking Shadows for vsip
+   DEBUG | Checking Shadows for vsscratch
+   DEBUG | Checking Shadows for vsepc
+   DEBUG | Checking Shadows for vstval
+   DEBUG | Checking Shadows for vscause
+   DEBUG | Checking Shadows for vstvec
+   DEBUG | Checking Shadows for vsatp
+    INFO | Dumping out Normalized Checked YAML: /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/work/sail_cSim_isa_checked.yaml
+    INFO | Input-Platform file
+    INFO | Loading input file: /home/riscv/sail_cSim/32/sail_cSim_platform.yaml
+    INFO | Load Schema /home/riscv/.local/lib/python3.6/site-packages/riscv_config/schemas/schema_platform.yaml
+    INFO | Initiating Validation
+    INFO | No Syntax errors in Input Platform Yaml. :)
+    INFO | Dumping out Normalized Checked YAML: /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/work/sail_cSim_platform_checked.yaml
+    INFO | Generating database for suite: /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/tests
+   DEBUG | Suite used: /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/tests
+   DEBUG | ENV used: /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/tests/env
+   DEBUG | Suite path is not a git repository.
+   DEBUG | Using /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/work/database.yaml
+    INFO | Database File Generated: /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/work/database.yaml
+    INFO | Env path set to/home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/tests/env
+    INFO | Will collect Coverage using RISCV-ISAC
+    INFO | CGF file(s) being used : ('/home/riscv/riscv-ctg/sample_cgfs/dataset.cgf', '/home/riscv/riscv-ctg/sample_cgfs/sample_cgfs_fext/RV32F/rv32f_fclass.cgf')
+   DEBUG | Running Build for Reference
+   DEBUG | Checking conditions for /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/tests/fclass_b1-01.S-0
+    INFO | Selecting Tests.
+    INFO | Running Tests on Reference.
+   DEBUG | /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/work
+   DEBUG | make -j12 -f /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/work/Makefile.Reference-sail_c_simulator TARGET0
+   DEBUG |     INFO | ****** RISC-V ISA Coverage 0.11.0 *******
+    INFO | Copyright (c) 2020, InCore Semiconductors Pvt. Ltd.
+    INFO | All Rights Reserved.
+    INFO | Start Test Label: rvtest_code_begin @ 0x800000f8
+    INFO | End Test Label  : rvtest_code_end @ 0x80000480
+    INFO | Start Signature Label: begin_signature @ 0x80002210
+    INFO | End Signature Label  : end_signature @ 0x80002320
+   ERROR | Last Coverpoint : ['opcode : fclass.s', 'rd : x6', 'rs1 : f5', 'fs1 == 0 and fe1 == 0x00 and fm1 == 0x000000 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x8000011c]:fclass.s t1, ft5
+   ERROR | 	-[0x80000120]:csrrs a7, fflags, zero
+   ERROR | 	-[0x80000124]:sw t1, 0(a5)
+   ERROR | Current Store : [0x80000128] : sw a7, 4(a5) -- Store: [0x80002214]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x27', 'rs1 : f31', 'fs1 == 1 and fe1 == 0x7f and fm1 == 0x000000 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x80000134]:fclass.s s11, ft11
+   ERROR | 	-[0x80000138]:csrrs a7, fflags, zero
+   ERROR | 	-[0x8000013c]:sw s11, 8(a5)
+   ERROR | Current Store : [0x80000140] : sw a7, 12(a5) -- Store: [0x8000221c]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x29', 'rs1 : f10', 'fs1 == 0 and fe1 == 0x7f and fm1 == 0x000000 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x8000014c]:fclass.s t4, fa0
+   ERROR | 	-[0x80000150]:csrrs a7, fflags, zero
+   ERROR | 	-[0x80000154]:sw t4, 16(a5)
+   ERROR | Current Store : [0x80000158] : sw a7, 20(a5) -- Store: [0x80002224]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x21', 'rs1 : f21', 'fs1 == 1 and fe1 == 0xff and fm1 == 0x2aaaaa and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x80000164]:fclass.s s5, fs5
+   ERROR | 	-[0x80000168]:csrrs a7, fflags, zero
+   ERROR | 	-[0x8000016c]:sw s5, 24(a5)
+   ERROR | Current Store : [0x80000170] : sw a7, 28(a5) -- Store: [0x8000222c]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x1', 'rs1 : f1', 'fs1 == 0 and fe1 == 0xff and fm1 == 0x000001 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x8000017c]:fclass.s ra, ft1
+   ERROR | 	-[0x80000180]:csrrs a7, fflags, zero
+   ERROR | 	-[0x80000184]:sw ra, 32(a5)
+   ERROR | Current Store : [0x80000188] : sw a7, 36(a5) -- Store: [0x80002234]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x2', 'rs1 : f4', 'fs1 == 1 and fe1 == 0xff and fm1 == 0x455555 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x80000194]:fclass.s sp, ft4
+   ERROR | 	-[0x80000198]:csrrs a7, fflags, zero
+   ERROR | 	-[0x8000019c]:sw sp, 40(a5)
+   ERROR | Current Store : [0x800001a0] : sw a7, 44(a5) -- Store: [0x8000223c]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x8', 'rs1 : f18', 'fs1 == 0 and fe1 == 0xff and fm1 == 0x400001 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x800001ac]:fclass.s fp, fs2
+   ERROR | 	-[0x800001b0]:csrrs a7, fflags, zero
+   ERROR | 	-[0x800001b4]:sw fp, 48(a5)
+   ERROR | Current Store : [0x800001b8] : sw a7, 52(a5) -- Store: [0x80002244]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x3', 'rs1 : f6', 'fs1 == 1 and fe1 == 0xff and fm1 == 0x400000 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x800001c4]:fclass.s gp, ft6
+   ERROR | 	-[0x800001c8]:csrrs a7, fflags, zero
+   ERROR | 	-[0x800001cc]:sw gp, 56(a5)
+   ERROR | Current Store : [0x800001d0] : sw a7, 60(a5) -- Store: [0x8000224c]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x0', 'rs1 : f0', 'fs1 == 0 and fe1 == 0xff and fm1 == 0x400000 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x800001dc]:fclass.s zero, ft0
+   ERROR | 	-[0x800001e0]:csrrs a7, fflags, zero
+   ERROR | 	-[0x800001e4]:sw zero, 64(a5)
+   ERROR | Current Store : [0x800001e8] : sw a7, 68(a5) -- Store: [0x80002254]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x20', 'rs1 : f2', 'fs1 == 1 and fe1 == 0xff and fm1 == 0x000000 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x800001f4]:fclass.s s4, ft2
+   ERROR | 	-[0x800001f8]:csrrs a7, fflags, zero
+   ERROR | 	-[0x800001fc]:sw s4, 72(a5)
+   ERROR | Current Store : [0x80000200] : sw a7, 76(a5) -- Store: [0x8000225c]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x16', 'rs1 : f14', 'fs1 == 0 and fe1 == 0xff and fm1 == 0x000000 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x80000218]:fclass.s a6, fa4
+   ERROR | 	-[0x8000021c]:csrrs s5, fflags, zero
+   ERROR | 	-[0x80000220]:sw a6, 0(s3)
+   ERROR | Current Store : [0x80000224] : sw s5, 4(s3) -- Store: [0x80002264]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x24', 'rs1 : f26', 'fs1 == 1 and fe1 == 0xfe and fm1 == 0x7fffff and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x8000023c]:fclass.s s8, fs10
+   ERROR | 	-[0x80000240]:csrrs a7, fflags, zero
+   ERROR | 	-[0x80000244]:sw s8, 0(a5)
+   ERROR | Current Store : [0x80000248] : sw a7, 4(a5) -- Store: [0x8000226c]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x26', 'rs1 : f7', 'fs1 == 0 and fe1 == 0xfe and fm1 == 0x7fffff and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x80000254]:fclass.s s10, ft7
+   ERROR | 	-[0x80000258]:csrrs a7, fflags, zero
+   ERROR | 	-[0x8000025c]:sw s10, 8(a5)
+   ERROR | Current Store : [0x80000260] : sw a7, 12(a5) -- Store: [0x80002274]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x19', 'rs1 : f8', 'fs1 == 1 and fe1 == 0x01 and fm1 == 0x055555 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x8000026c]:fclass.s s3, fs0
+   ERROR | 	-[0x80000270]:csrrs a7, fflags, zero
+   ERROR | 	-[0x80000274]:sw s3, 16(a5)
+   ERROR | Current Store : [0x80000278] : sw a7, 20(a5) -- Store: [0x8000227c]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x28', 'rs1 : f15', 'fs1 == 0 and fe1 == 0x01 and fm1 == 0x000001 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x80000284]:fclass.s t3, fa5
+   ERROR | 	-[0x80000288]:csrrs a7, fflags, zero
+   ERROR | 	-[0x8000028c]:sw t3, 24(a5)
+   ERROR | Current Store : [0x80000290] : sw a7, 28(a5) -- Store: [0x80002284]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x11', 'rs1 : f28', 'fs1 == 1 and fe1 == 0x01 and fm1 == 0x000000 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x8000029c]:fclass.s a1, ft8
+   ERROR | 	-[0x800002a0]:csrrs a7, fflags, zero
+   ERROR | 	-[0x800002a4]:sw a1, 32(a5)
+   ERROR | Current Store : [0x800002a8] : sw a7, 36(a5) -- Store: [0x8000228c]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x18', 'rs1 : f16', 'fs1 == 0 and fe1 == 0x01 and fm1 == 0x000000 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x800002b4]:fclass.s s2, fa6
+   ERROR | 	-[0x800002b8]:csrrs a7, fflags, zero
+   ERROR | 	-[0x800002bc]:sw s2, 40(a5)
+   ERROR | Current Store : [0x800002c0] : sw a7, 44(a5) -- Store: [0x80002294]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x10', 'rs1 : f19', 'fs1 == 1 and fe1 == 0x00 and fm1 == 0x7fffff and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x800002cc]:fclass.s a0, fs3
+   ERROR | 	-[0x800002d0]:csrrs a7, fflags, zero
+   ERROR | 	-[0x800002d4]:sw a0, 48(a5)
+   ERROR | Current Store : [0x800002d8] : sw a7, 52(a5) -- Store: [0x8000229c]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x30', 'rs1 : f13', 'fs1 == 0 and fe1 == 0x00 and fm1 == 0x7fffff and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x800002e4]:fclass.s t5, fa3
+   ERROR | 	-[0x800002e8]:csrrs a7, fflags, zero
+   ERROR | 	-[0x800002ec]:sw t5, 56(a5)
+   ERROR | Current Store : [0x800002f0] : sw a7, 60(a5) -- Store: [0x800022a4]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x5', 'rs1 : f30', 'fs1 == 1 and fe1 == 0x00 and fm1 == 0x7ffffe and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x800002fc]:fclass.s t0, ft10
+   ERROR | 	-[0x80000300]:csrrs a7, fflags, zero
+   ERROR | 	-[0x80000304]:sw t0, 64(a5)
+   ERROR | Current Store : [0x80000308] : sw a7, 68(a5) -- Store: [0x800022ac]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x12', 'rs1 : f17', 'fs1 == 0 and fe1 == 0x00 and fm1 == 0x000002 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x80000314]:fclass.s a2, fa7
+   ERROR | 	-[0x80000318]:csrrs a7, fflags, zero
+   ERROR | 	-[0x8000031c]:sw a2, 72(a5)
+   ERROR | Current Store : [0x80000320] : sw a7, 76(a5) -- Store: [0x800022b4]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x22', 'rs1 : f20', 'fs1 == 1 and fe1 == 0x00 and fm1 == 0x000001 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x8000032c]:fclass.s s6, fs4
+   ERROR | 	-[0x80000330]:csrrs a7, fflags, zero
+   ERROR | 	-[0x80000334]:sw s6, 80(a5)
+   ERROR | Current Store : [0x80000338] : sw a7, 84(a5) -- Store: [0x800022bc]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x14', 'rs1 : f29', 'fs1 == 0 and fe1 == 0x00 and fm1 == 0x000001 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x80000344]:fclass.s a4, ft9
+   ERROR | 	-[0x80000348]:csrrs a7, fflags, zero
+   ERROR | 	-[0x8000034c]:sw a4, 88(a5)
+   ERROR | Current Store : [0x80000350] : sw a7, 92(a5) -- Store: [0x800022c4]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x17', 'rs1 : f25', 'fs1 == 1 and fe1 == 0x00 and fm1 == 0x000000 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x80000368]:fclass.s a7, fs9
+   ERROR | 	-[0x8000036c]:csrrs s5, fflags, zero
+   ERROR | 	-[0x80000370]:sw a7, 0(s3)
+   ERROR | Current Store : [0x80000374] : sw s5, 4(s3) -- Store: [0x800022cc]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x9', 'rs1 : f3']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x8000038c]:fclass.s s1, ft3
+   ERROR | 	-[0x80000390]:csrrs a7, fflags, zero
+   ERROR | 	-[0x80000394]:sw s1, 0(a5)
+   ERROR | Current Store : [0x80000398] : sw a7, 4(a5) -- Store: [0x800022d4]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x13', 'rs1 : f9']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x800003a4]:fclass.s a3, fs1
+   ERROR | 	-[0x800003a8]:csrrs a7, fflags, zero
+   ERROR | 	-[0x800003ac]:sw a3, 8(a5)
+   ERROR | Current Store : [0x800003b0] : sw a7, 12(a5) -- Store: [0x800022dc]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x15', 'rs1 : f27']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x800003c8]:fclass.s a5, fs11
+   ERROR | 	-[0x800003cc]:csrrs s5, fflags, zero
+   ERROR | 	-[0x800003d0]:sw a5, 0(s3)
+   ERROR | Current Store : [0x800003d4] : sw s5, 4(s3) -- Store: [0x800022e4]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x23', 'rs1 : f24']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x800003ec]:fclass.s s7, fs8
+   ERROR | 	-[0x800003f0]:csrrs a7, fflags, zero
+   ERROR | 	-[0x800003f4]:sw s7, 0(a5)
+   ERROR | Current Store : [0x800003f8] : sw a7, 4(a5) -- Store: [0x800022ec]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x25', 'rs1 : f23']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x80000404]:fclass.s s9, fs7
+   ERROR | 	-[0x80000408]:csrrs a7, fflags, zero
+   ERROR | 	-[0x8000040c]:sw s9, 8(a5)
+   ERROR | Current Store : [0x80000410] : sw a7, 12(a5) -- Store: [0x800022f4]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x4', 'rs1 : f12']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x8000041c]:fclass.s tp, fa2
+   ERROR | 	-[0x80000420]:csrrs a7, fflags, zero
+   ERROR | 	-[0x80000424]:sw tp, 16(a5)
+   ERROR | Current Store : [0x80000428] : sw a7, 20(a5) -- Store: [0x800022fc]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x7', 'rs1 : f11']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x80000434]:fclass.s t2, fa1
+   ERROR | 	-[0x80000438]:csrrs a7, fflags, zero
+   ERROR | 	-[0x8000043c]:sw t2, 24(a5)
+   ERROR | Current Store : [0x80000440] : sw a7, 28(a5) -- Store: [0x80002304]:0x00000000
+   ERROR | Last Coverpoint : ['rd : x31', 'rs1 : f22']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x8000044c]:fclass.s t6, fs6
+   ERROR | 	-[0x80000450]:csrrs a7, fflags, zero
+   ERROR | 	-[0x80000454]:sw t6, 32(a5)
+   ERROR | Current Store : [0x80000458] : sw a7, 36(a5) -- Store: [0x8000230c]:0x00000000
+[31m WARNING | [31mOp without unique coverpoint updates Signature
+[31m WARNING | [31m -- Code Sequence:
+[31m WARNING | [31m      [0x80000464]:fclass.s t6, ft11
+[31m WARNING | [31m      [0x80000468]:csrrs a7, fflags, zero
+[31m WARNING | [31m      [0x8000046c]:sw t6, 40(a5)
+[31m WARNING | [31m -- Signature Address: 0x80002310 Data: 0x00000200
+[31m WARNING | [31m -- Redundant Coverpoints hit by the op
+[31m WARNING | [31m      - opcode : fclass.s
+[31m WARNING | [31m      - rd : x31
+[31m WARNING | [31m      - rs1 : f31
+[31m WARNING | [31m      - fs1 == 0 and fe1 == 0xff and fm1 == 0x400000 and rm_val == 1  #nosat
+   ERROR | Last Coverpoint : ['opcode : fclass.s', 'rd : x31', 'rs1 : f31', 'fs1 == 0 and fe1 == 0xff and fm1 == 0x400000 and rm_val == 1  #nosat']
+   ERROR | Last Code Sequence : 
+   ERROR | 	-[0x80000464]:fclass.s t6, ft11
+   ERROR | 	-[0x80000468]:csrrs a7, fflags, zero
+   ERROR | 	-[0x8000046c]:sw t6, 40(a5)
+   ERROR | Current Store : [0x80000470] : sw a7, 44(a5) -- Store: [0x80002314]:0x00000000
+    INFO | Writing out updated cgf : /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/work/fclass_b1-01.S/ref.cgf
+    INFO | Creating Data Propagation Report : /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/work/fclass_b1-01.S/ref.md
+    INFO | Report File Generated : /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/work/fclass_b1-01.S/coverage.rpt
+    INFO | Merging Coverage reports
+   DEBUG | Generated   24 32-bit coverpoints using Model B1 for fclass.s !
+   DEBUG | Suite path is not a git repository.
+    INFO | Test report generated at /home/riscv/RRF/Reports/2022-05-03_12:23:51.214619/fclass/work/coverage.html.
