@@ -6,6 +6,7 @@ import click
 import os
 import pandas as pds
 import ruamel.yaml
+import git
 from . import log
 from xml.dom import minidom
 from urllib.request import urlopen
@@ -16,6 +17,7 @@ from dateutil import parser
 @click.option('--verbose', '-v', default='error', help='Set verbose level', type=click.Choice(['info','error','debug'],case_sensitive=False))
 @click.option('--runmanager', '-r', default=False, help='Path of the csv file', type=click.Path(exists=True,resolve_path=True,readable=True))
 def cli(verbose,runmanager):
+    global logger
     logger = log.logger
     logger.level(verbose)
     data= pds.read_csv(runmanager)
@@ -26,6 +28,8 @@ def cli(verbose,runmanager):
 
     FOLD_REP = properties.get('FOLD_REP')
     DATASET = properties.get('DATASET')
+    CTG_REPO = properties.get('CTG_REPO')
+    ISAC_REPO = properties.get('ISAC_REPO')
 
     logger.info(folderCleanup(FOLD_REP))
     url_Str = properties.get('CTG_PATH')
@@ -51,6 +55,9 @@ def cli(verbose,runmanager):
             file.close()
     else:
         ctgFlag = False
+    
+    gitVerify(CTG_REPO,ctgFlag)
+
     logger.info("CTG Flag has been set")
     logger.info(ctgFlag)
 
@@ -76,8 +83,12 @@ def cli(verbose,runmanager):
             file.close()
     else:
         isacFlag = False
+    
+    gitVerify(ISAC_REPO,isacFlag)
+    
     logger.info("ISAC Flag has been set")
     logger.info(isacFlag)
+
 
     isacFlag = True
     if isacFlag or ctgFlag:
@@ -193,4 +204,20 @@ def folderCleanup(fold_path):
     if cleanStatus[0]==0:
         return("Cleaned the reports repository to keep last 30 reports")
     else:
+        logger.debug("Something messed up with the reports clean up")
         return("Unable to cleanup the Reports Folder")
+
+def gitVerify(path,flag):
+    '''Function gitVerify is verifying the given path against the flag that is being set'''
+    repo = git.Repo(path)
+    repo.remotes.origin.pull()
+    current = repo.head.commit
+    repo.remotes.origin.pull()
+    if current != repo.head.commit and flag:
+        logger.info('The remote and local head are matching up hence the flag set is Valid')
+        logger.info(current)
+        logger.info(repo.head.commit)
+    else:
+        logger.error('The remote and local head are matching up hence the flag set is Valid')
+        logger.error(current)
+        logger.error(repo.head.commit)
