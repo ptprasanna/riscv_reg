@@ -34,9 +34,9 @@ setup(
           "License :: OSI Approved :: BSD License",
           "Development Status :: 1 - alpha"
     ],
-    # url='https://github.com/riscv/riscv-ctg',
-    # author="InCore Semiconductors Pvt. Ltd.",
-    # author_email='info@incoresemi.com',
+    # url='https://github.com/ptprasanna/riscv_reg',
+    # author="IITM",
+    # author_email='riscvreg@gmail.com',
     # license="BSD-3-Clause",
     packages=find_packages(),
     package_dir={'riscv_reg': 'riscv_reg'},
@@ -59,4 +59,5 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     zip_safe=False,
+    install_requires=['pandas','request']
 )
