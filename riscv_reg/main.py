@@ -202,7 +202,7 @@ def calculateCoverPercentage(path,instr):
     if instr=="coverPoints":
         return (str(passCP)+"/"+str(totalCP))
     elif instr=="coverPercent":
-        return str(float(passCP*(100/totalCP)))
+        return str(round(float(passCP*(100/totalCP)),2))
 
 def folderCleanup(fold_path):
     '''This function is to keep the last 30 report folders and to delete the rest'''
