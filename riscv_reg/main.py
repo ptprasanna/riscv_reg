@@ -7,6 +7,11 @@ import os
 import pandas as pds
 import ruamel.yaml
 import git
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email import encoders
 from . import log
 from xml.dom import minidom
 from urllib.request import urlopen
@@ -95,6 +100,7 @@ def cli(verbose,runmanager):
 
         reportpath = datetime.datetime.now()
         reportpath = str(reportpath).replace(" ","_")
+        mailSubject = reportpath
         os.mkdir("{0}/{1}".format(FOLD_REP,reportpath))
         
         if os.path.exists(DATASET):
@@ -175,8 +181,9 @@ def cli(verbose,runmanager):
                 continue
     else:
         logger.warning("There isn't any change from the last regression run, hence no run is scheduled")
-
-    htmlReport.to_html(reports+"/riscv_reg_status.html")
+    rptPath = reports+"/riscv_reg_status.html"
+    htmlReport.to_html(rptPath)
+    sendEmail(str(mailSubject),htmlReport.to_string())
 # def generateReport(csvData):
 #     logger.info("Report Generated")
 
@@ -210,14 +217,35 @@ def folderCleanup(fold_path):
 def gitVerify(path,flag):
     '''Function gitVerify is verifying the given path against the flag that is being set'''
     repo = git.Repo(path)
-    repo.remotes.origin.pull()
     current = repo.head.commit
-    repo.remotes.origin.pull()
-    if current != repo.head.commit and flag:
+    repo.remote("origin").pull("floating-point-dev")
+    if current == repo.head.commit and flag:
         logger.info('The remote and local head are matching up hence the flag set is Valid')
         logger.info(current)
         logger.info(repo.head.commit)
     else:
-        logger.error('The remote and local head are matching up hence the flag set is Valid')
+        logger.error('The remote and local head are Not matching up hence the flag set is InValid') 
         logger.error(current)
         logger.error(repo.head.commit)
+
+def sendEmail(mailSubject,mailcontent):
+    mail_content = mailcontent
+    #The mail addresses and password
+    sender_address = 'riscvreg@gmail.com'
+    sender_pass = 'Riscv@Reg123'
+    receiver_address = ['vasan.vs@gmail.com', 'ptprasanna@gmail.com']
+    #Setup the MIME
+    message = MIMEMultipart()
+    message['From'] = sender_address
+    message['To'] = ", ".join(receiver_address)
+    message['Subject'] = "RISCV Regression Result | riscv_reg Ran on "+mailSubject
+    #The subject line
+    #The body and the attachments for the mail
+    message.attach(MIMEText(mail_content, 'plain'))
+    session = smtplib.SMTP('smtp.gmail.com', 587) #use gmail with port
+    session.starttls() #enable security
+    session.login(sender_address, sender_pass) #login with mail_id and password
+    text = message.as_string()
+    session.sendmail(sender_address, receiver_address, text)
+    session.quit()
+    logger.info('Mail Sent to the reciepent addresses given')

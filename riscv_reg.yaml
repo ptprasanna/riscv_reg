@@ -5,5 +5,5 @@ CTG_COM: 2022-04-20 10:14:09
 ISAC_COM: 2022-04-20 10:15:13
 FOLD_REP: "./Reports"
 DATASET: "/home/riscv/riscv-ctg/sample_cgfs/dataset.cgf"
-CTG_REPO: /home/riscv/riscv-ctg
-ISAC_REPO: /home/riscv/riscv-isac
+CTG_REPO: "/home/riscv/riscv-ctg"
+ISAC_REPO: "/home/riscv/riscv-isac"
