@@ -95,14 +95,14 @@ def cli(verbose,runmanager):
     logger.info(isacFlag)
 
 
-    isacFlag = True
+    # isacFlag = True
     if isacFlag or ctgFlag:
 
         reportpath = datetime.datetime.now()
         reportpath = str(reportpath).replace(" ","_")
         mailSubject = reportpath
         os.mkdir("{0}/{1}".format(FOLD_REP,reportpath))
-        
+        reports = "{0}/{1}".format(FOLD_REP,reportpath)
         if os.path.exists(DATASET):
             pass
         else:
@@ -112,7 +112,7 @@ def cli(verbose,runmanager):
         
         for row in range (data.__len__()):
             ''' This loop iterate through each row of the runmanager and start running it '''
-            reports = "{0}/{1}".format(FOLD_REP,reportpath)
+
             cmdStr = "cd "
             if data.__getitem__("selectTest")[row]:
                             
@@ -179,11 +179,13 @@ def cli(verbose,runmanager):
                 logger.info(htmlReport)
             else:
                 continue
+        rptPath = reports+"/riscv_reg_status.html"
+        htmlReport.to_html(rptPath)
+        sendEmail(str(mailSubject),htmlReport.to_string())
     else:
         logger.warning("There isn't any change from the last regression run, hence no run is scheduled")
-    rptPath = reports+"/riscv_reg_status.html"
-    htmlReport.to_html(rptPath)
-    sendEmail(str(mailSubject),htmlReport.to_string())
+        sendEmail("No Run is Scheduled ","There isn't any change on the Repoitory from the last regression run, hence no run is scheduled")
+
 # def generateReport(csvData):
 #     logger.info("Report Generated")
 
@@ -219,14 +221,15 @@ def gitVerify(path,flag):
     repo = git.Repo(path)
     current = repo.head.commit
     repo.remote("origin").pull("floating-point-dev")
-    if current == repo.head.commit and flag:
+    if str(current) == str(repo.head.commit) and not flag:
         logger.info('The remote and local head are matching up hence the flag set is Valid')
-        logger.info(current)
-        logger.info(repo.head.commit)
     else:
         logger.error('The remote and local head are Not matching up hence the flag set is InValid') 
-        logger.error(current)
-        logger.error(repo.head.commit)
+    logger.info(current)
+    logger.info(repo.head.commit)
+    logger.info(path)
+    logger.info(flag)
+
 
 def sendEmail(mailSubject,mailcontent):
     mail_content = mailcontent
